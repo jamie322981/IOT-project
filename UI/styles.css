@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eff5ef;
+}
+
+header {
+    background-color: #eff5ef;
+    color: black;
+    text-align: center;
+}
+
+header img{
+    width: 300px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#exercises {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+#videoPlayer {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #eff5ef;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+}
